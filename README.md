@@ -13,3 +13,11 @@
   https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ
 
   Para este proyecto use Astro para aprender a usar lo básico de este framework.
+
+  ## 1.3 blog preview card
+  https://blog-preview-card-yarce22.netlify.app/
+
+  ## Guía de la pagina
+  https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
+
+  Esta vez decidí utilizar lo mas básico del desarrollo web, HTML y CSS, con esto garantizo la carga rápida de la pagina.
