@@ -19,6 +19,7 @@ const App = () => {
           />
         ))}
 	    </section>
+      <p className='footer'>Challenge by <a href="https://www.frontendmentor.io/">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/Yarce22">Yarce22</a></p>
     </>
   )
 }

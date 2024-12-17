@@ -5,6 +5,11 @@
   font-weight: 600;
 }
 
+.main-question-container:hover {
+  cursor: pointer;
+  color: var(--pink)
+}
+
 .title-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
