@@ -1,8 +1,7 @@
 .main-question-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
 }
 
@@ -19,6 +18,7 @@
 .answer-question {
   color: var(--grayishPurple);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 150%;
+  letter-spacing: 0.5px;
 }

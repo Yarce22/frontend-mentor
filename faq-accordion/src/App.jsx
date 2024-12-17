@@ -1,5 +1,6 @@
 import Question from './components/Question'
 import starIcon from "./assets/images/icon-star.svg"
+import questions from "./utils/questions/questions"
 import './App.css'
 
 const App = () => {
@@ -10,7 +11,13 @@ const App = () => {
           <img src={starIcon} alt="star-icon" />
           <h1>FAQs</h1>
         </div>
-        <Question />
+        {questions.map((question) => (
+          <Question 
+            key={question.title}
+            title={question.title}
+            answer={question.answer}
+          />
+        ))}
 	    </section>
     </>
   )
