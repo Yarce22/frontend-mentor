@@ -21,3 +21,11 @@
   https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
 
   Esta vez decidí utilizar lo mas básico del desarrollo web, HTML y CSS, con esto garantizo la carga rápida de la pagina.
+
+  ## 1.4 faq accordion 
+  https://faq-accordion-yarce22.netlify.app/
+
+  ## Guía de la pagina
+  https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz
+
+  Esta pagina la realice con React + Vite. Comprendiendo los creación de los componentes y en general el funcionamiento de React.
