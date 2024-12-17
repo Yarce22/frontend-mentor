@@ -1,7 +1,8 @@
 import Question from './components/Question'
 import starIcon from "./assets/images/icon-star.svg"
+import './App.css'
 
-function App() {
+const App = () => {
   return (
     <>
       <section className="main-container-accordion">
