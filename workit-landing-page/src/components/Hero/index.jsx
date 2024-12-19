@@ -15,11 +15,11 @@ const Hero = () => {
         <h1 className='text-[40px] leading-[3rem] text-center font-semibold font-Frauces'>Data <span className='underline decoration-Green decoration-2 underline-offset-8'>tailored</span> to your needs.</h1>
         <button className='w-[151px] h-[53px] mt-10 bg-Green text-Purple900'>Learn more</button>
       </section>
-      <div className='w-80 absolute -bottom-28'>
+      <div className='w-80 absolute z-10 -bottom-28 left-0 right-0 m-auto'>
         <img src={imageHero} alt="phone-image" />
       </div>
     </section>
-    <div className='fill-Purple900'>
+    <div className='absolute w-full z-0 fill-Purple900'>
       <svg xmlns="http://www.w3.org/2000/svg" width="100%"  height="100%" viewBox="0 0 375 23.7">
         <path
             d="M 0 0 A 250 70 0 0 0 375 0 Z"/>
