@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const MainInformation = ({ index, title, info }) => {
   return (
-    <article className="flex flex-col items-center gap-6">
+    <article className="flex flex-col items-center gap-6 text-Purple900">
       <div className="grid place-content-center w-12 h-12 rounded-full border-solid border-Purple908 border text-xl">
         <p>{index}</p>
       </div>
