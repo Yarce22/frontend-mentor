@@ -1,9 +1,10 @@
 import logoLight from '../../assets/images/logo-light.svg'
+import imageHero from '../../assets/images/image-hero.webp'
 
 const Hero = () => {
   return (
     <>
-    <section className="hero-container flex flex-col px-5 pt-8 bg-Purple900 text-lg text-White font-Manrope font-bold">
+    <section className="hero-container relative flex flex-col px-5 pt-8 bg-Purple900 text-lg text-White font-Manrope font-bold">
       <nav className='flex justify-between'>
         <div className=''>
           <img src={logoLight} alt="logo" />
@@ -14,6 +15,9 @@ const Hero = () => {
         <h1 className='text-[40px] leading-[3rem] text-center font-semibold font-Frauces'>Data <span className='underline decoration-Green decoration-2 underline-offset-8'>tailored</span> to your needs.</h1>
         <button className='w-[151px] h-[53px] mt-10 bg-Green text-Purple900'>Learn more</button>
       </section>
+      <div className='w-80 absolute -bottom-28'>
+        <img src={imageHero} alt="phone-image" />
+      </div>
     </section>
     <div className='fill-Purple900'>
       <svg xmlns="http://www.w3.org/2000/svg" width="100%"  height="100%" viewBox="0 0 375 23.7">
