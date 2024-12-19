@@ -1,5 +1,6 @@
 import logoLight from '../../assets/images/logo-light.svg'
 import imageHero from '../../assets/images/image-hero.webp'
+import Button from '../Button'
 
 const Hero = () => {
   return (
@@ -11,9 +12,11 @@ const Hero = () => {
         </div>
         <a href="/" className='underline decoration-Green decoration-2 underline-offset-8'>Apply for access</a>
       </nav>
-      <section className='flex flex-col items-center mt-14 mx-5 mb-36'>
+      <section className='flex flex-col gap-10 items-center mt-14 mx-5 mb-36'>
         <h1 className='text-[40px] leading-[3rem] text-center font-semibold font-Frauces'>Data <span className='underline decoration-Green decoration-2 underline-offset-8'>tailored</span> to your needs.</h1>
-        <button className='w-[151px] h-[53px] mt-10 bg-Green text-Purple900'>Learn more</button>
+        <Button 
+          text='Learn more'
+        />
       </section>
       <div className='w-80 absolute z-10 -bottom-28 left-0 right-0 m-auto'>
         <img src={imageHero} alt="phone-image" />
