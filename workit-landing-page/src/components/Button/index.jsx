@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 const Button = ({ text }) => {
   return (
-    <button className='w-[151px] h-[53px] bg-Green text-Purple900 font-bold'>{text}</button>
+    <button className='py-3 px-7 md:px-8 md:text-lg bg-Green text-Purple900 font-bold'>{text}</button>
   )
 }
 

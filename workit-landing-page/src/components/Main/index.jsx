@@ -1,10 +1,14 @@
 import MainInformation from "../MainInformation"
 import { information } from "../../utils/information"
+import imageHero from '../../assets/images/image-hero.webp'
 
 const Main = () => {
   return (
     <>
-    <section className="flex flex-col items-center gap-8 pt-40 pb-16 px-5 font-Frauces bg-Purple100">
+    <section className="relative flex flex-col items-center gap-8 pt-40 md:pt-64 md:px-11 pb-16 px-5 font-Frauces bg-Purple100">
+      <div className='w-80 md:w-[515px] absolute z-10 -top-20 md:-top-24 left-0 right-0 m-auto'>
+        <img src={imageHero} alt="phone-image" />
+      </div>
       {information.map((data) => {
         return (
         <MainInformation
