@@ -11,7 +11,7 @@ const Hero = () => {
         <div className=''>
           <img src={logoLight} alt="logo" />
         </div>
-        <a href="/" className='underline decoration-Green decoration-2 underline-offset-8'>Apply for access</a>
+        <a href="/" className='underline decoration-Green decoration-2 underline-offset-8 hover:text-Green'>Apply for access</a>
       </nav>
       <section className='flex flex-col gap-10 items-center mt-14 mx-5 mb-36'>
         <h1 className='md:mx-11 lg:mx-20 xl:mx-72  md:text-[60px] lg:text-[5rem] md:font-medium md:leading-[5rem] text-[40px] leading-[3rem] text-center font-semibold font-Frauces'>Data <span className='underline decoration-Green decoration-2 underline-offset-8'>tailored</span> to your needs.</h1>
