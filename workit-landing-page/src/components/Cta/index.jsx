@@ -6,7 +6,7 @@ const Cta = () => {
   return (
     <section className="pt-28 px-5 md:px-11 lg:px-40">
       <div className='flex flex-col'>
-        <div className='w-[477px]'>
+        <div className='w-72 lg:w-[477px]'>
           <img src={founder} alt="founder-photo" className='w-full' />
         </div>
         <article className='relative flex flex-col items-center md:items-start z-20 gap-8 -mt-14 md:-mt-28 md:ml-[182px] p-8 md:p-12 lg:p-16 lg:mr-28 lg:-mt-[300px] lg:ml-96 text-White bg-Purple900 '>

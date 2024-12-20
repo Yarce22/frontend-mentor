@@ -6,8 +6,8 @@ const MainInformation = ({ index, title, info }) => {
       <div className="grid place-content-center min-w-12 h-12 rounded-full border-solid border-Purple908 border text-xl">
         <p>{index}</p>
       </div>
-      <div className='md:flex md:flex-col md:gap-7'>
-        <h2 className="font-medium text-2xl lg:text-[32px]">{title}</h2>
+      <div className='flex flex-col gap-4 md:gap-7'>
+        <h2 className="font-medium text-center text-2xl lg:text-[32px]">{title}</h2>
         <p className="text-center md:text-left lg:text-center font-Manrope font-medium text-[15px] lg:text-lg leading-7">{info}</p>
       </div>
     </article>
