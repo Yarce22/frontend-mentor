@@ -11,7 +11,7 @@ const Rating = ({number, id}) => {
     <input type="radio" id={id} name='options' className='hidden' />
     <label
       htmlFor={id}
-      className='grid place-items-center w-[42px] h-[42px] lg:w-[51px] lg:h-[51px] font-bold text-LightGrey bg-DarkBlue rounded-full hover:bg-Orange hover:text-DarkBlue'
+      className='grid place-items-center w-[42px] h-[42px] lg:w-[51px] lg:h-[51px] font-bold text-LightGrey bg-DarkBlue rounded-full cursor-pointer hover:bg-Orange hover:text-DarkBlue'
       onClick={() => optionSelected(number)}
     >
       <p>
