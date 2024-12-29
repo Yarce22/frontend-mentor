@@ -5,7 +5,7 @@ const Context = createContext()
 
 const Provider = ({ children }) => {
 
-  const [isQualified, setIsQualified] = useState(true)
+  const [isQualified, setIsQualified] = useState(false)
   const [qualification, setQualification] = useState(null)
 
   const qualified = () => {
