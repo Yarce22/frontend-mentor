@@ -7,7 +7,7 @@ const ThanksCard = () => {
   const {isQualified, qualification} = useContext(Context)
 
   return (
-    <main className={`p-6 rounded-2xl bg-gradient-to-b from-[#232A34] to-[#181E27] text-White ${isQualified ? 'block' : 'hidden'}`}>
+    <main className={`p-6 lg:py-8 lg:pl-8 lg:pr-10 rounded-2xl max-w-[392px] max-h-[416px] bg-gradient-to-b from-[#232A34] to-[#181E27] ${isQualified ? 'block' : 'hidden'}`}>
       <div className="grid place-content-center">
         <img src={Illustration} alt="illustration-thanks" />
       </div>
@@ -17,7 +17,7 @@ const ThanksCard = () => {
       </div>
 
       <div className="grid place-items-center text-center">
-        <h2 className="text-2xl font-bold">Thank you!</h2>
+        <h2 className="text-2xl text-White font-bold">Thank you!</h2>
         <p className="text-LightGrey mt-4 text-sm">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
       </div>
     </main>
