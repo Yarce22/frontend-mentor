@@ -9,7 +9,7 @@ export default {
       colors: {
         GreenHover: '#afd9cb',
         Green: '#54E6AF',
-        OpacityBlue950: 'rgba(18, 23, 37, .8)',
+        OpacityBlue950: 'rgba(18, 23, 37, .9)',
         Blue950: '#121725',
         Blue900: '#2C344B',
         Blue600: '#5A668A',

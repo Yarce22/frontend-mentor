@@ -5,7 +5,7 @@ import ImgDesktop from '../../assets/desktop/image-host.jpg'
 const Image = () => {
   return(
     <>
-      <picture className='absolute w-full h-full z-0'>
+      <picture className='absolute w-full h-full z-0 md:w-[67%] md:-right-16 md:pb-[180px]'>
         <source media='(min-width: 1048px)' srcSet={ImgDesktop} />
         <source media='(min-width: 768px)' srcSet={ImgTable} />
         <img className='w-full h-full' src={ImgMobile} alt="image-description" />

@@ -1,35 +1,26 @@
 import { InputEmail } from "../InputEmail"
-import { SocialLogos } from "../SocialLogos"
 import spotifyLogo from "../../assets/desktop/spotify.svg"
 import applePodcastLogo from "../../assets/desktop/apple-podcast.svg"
 import googlePodcastLogo from "../../assets/desktop/google-podcasts.svg"
 import pocketPodcastLogo from "../../assets/desktop/pocket-casts.svg"
 
-const Logos = [
-  {src: spotifyLogo, alt: "spotify-logo"},
-  {src: applePodcastLogo, alt: "apple-podcast-logo"},
-  {src: googlePodcastLogo, alt: "google-podcast-logo",  w: '73px', h: '10px'},
-  {src: pocketPodcastLogo, alt: "pocket-podcast-logo"},
-]
-
 const Info = () => {
   return (
     <>
-      <section className="">
-        <h1 className="mt-14 mb-4 leading-9 text-[2rem] text-center text-Green font-light">PUBLISH YOUR PODCAST <span className="text-White">EVERYWHERE.</span></h1>
+      <section className="md:relative md:flex md:flex-col md:pr-36 md:bg-Blue950">
+        <h1
+          className="mt-14 md:mt-[88px] mb-4 md:w-[350px] leading-9 md:leading-[3.25rem] text-[2rem] md:text-[44px] text-center md:text-start text-Green font-light md:order-1"
+        >PUBLISH YOUR PODCAST <span className="text-White">EVERYWHERE.</span></h1>
 
-        <p className="text-Blue300 text-center text-sm font-extralight">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+        <p
+          className="md:w-[440px] md:mb-10 text-Blue300 text-center md:text-start text-sm md:text-lg font-extralight md:order-2"
+        >Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
 
-        <div className="flex justify-between items-center h-4 my-10">
-          {Logos.map((logo) => (
-            <SocialLogos 
-              key={logo.alt}
-              logoIcon={logo.src}
-              logoName={logo.alt}
-              w={logo.w}
-              h={logo.h}
-            />
-          ))}
+        <div className="md:absolute md:bottom-0 md:gap-10 flex justify-between items-center h-4 md:h-7 my-10 md:my-0 md:mt-10 md:order-4">
+        <img className="h-full" src={spotifyLogo} alt="spotify-logo" />
+        <img className="h-full" src={applePodcastLogo} alt="apple-podcast-logo" />
+        <img className="w-[73px] h-[10px] md:w-[125px] md:h-[18px]" src={googlePodcastLogo} alt="google-podcast-logo" />
+        <img className="h-full" src={pocketPodcastLogo} alt="pocket-podcast-logo" />
         </div>
 
         <InputEmail />
