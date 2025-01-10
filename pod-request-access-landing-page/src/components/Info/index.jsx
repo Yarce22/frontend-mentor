@@ -9,7 +9,7 @@ const Info = () => {
     <>
       <section className="md:relative md:flex md:flex-col md:pr-36 md:bg-Blue950">
         <h1
-          className="mt-14 md:mt-[88px] mb-4 md:w-[350px] leading-9 md:leading-[3.25rem] text-[2rem] md:text-[44px] text-center md:text-start text-Green font-light md:order-1"
+          className="mt-14 md:mt-[88px] mb-4 md:mb-6 md:w-[350px] lg:w-[520px] leading-9 md:leading-[3.25rem] text-[2rem] md:text-[44px] text-center md:text-start text-Green font-light md:order-1"
         >PUBLISH YOUR PODCAST <span className="text-White">EVERYWHERE.</span></h1>
 
         <p

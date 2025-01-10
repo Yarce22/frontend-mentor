@@ -21,7 +21,7 @@ const { inputValue, setInputValue, validEmail, setValidEmail } = useContext(Cont
   return (
     <>
       <form 
-        className="md:relative flex flex-col gap-2 md:mb-[70px] md:order-3"
+        className="md:relative flex flex-col gap-2 max-w-[448px] md:mb-[70px] md:order-3"
       >
         <input
           className={`bg-Blue900 ${validEmail ? 'border-none' : 'border-red-600 border-2'} text-White rounded-full py-3 md:py-4 pl-8 font-Chivo text-sm font-bold focus:outline-none`}
