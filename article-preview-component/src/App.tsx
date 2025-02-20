@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <section className='grid place-items-center px-6 h-lvh bg-Light-Grayish-Blue'>
+    <section className='grid place-items-center h-lvh bg-Light-Grayish-Blue'>
       <Card />
     </section>
   )
