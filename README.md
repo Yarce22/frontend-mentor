@@ -15,3 +15,6 @@ https://workit-landing-page-yarce22.netlify.app/
 
 6. ## Interactive rating component
 https://interactive-rating-component-yarce22.netlify.app/
+
+7. ## Article preview component
+https://article-preview-component-yarce22.netlify.app/
