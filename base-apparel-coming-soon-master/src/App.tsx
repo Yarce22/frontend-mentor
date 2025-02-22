@@ -1,10 +1,13 @@
+import { Card } from './components/Card/Card'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Base Apparel Coming Soon Page</h1>
+      <main className='grid place-content-center h-screen w-screen'>
+        <Card />
+      </main>
     </>
   )
 }
