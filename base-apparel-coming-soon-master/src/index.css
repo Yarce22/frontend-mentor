@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-desaturated-red: hsl(0, 36%, 70%);
+  --color-desaturated-red-placeholder: hsl(0, 36%, 70%, 0.5);
   --color-soft-red: hsl(0, 93%, 68%);
-  --color-dark-grayish-red: hsl(0, 6%, 24%)
+  --color-dark-grayish-red: hsl(0, 6%, 24%);
+
+  --font-josefin: "Josefin Sans", serif;
 }
