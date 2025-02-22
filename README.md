@@ -18,3 +18,6 @@ https://interactive-rating-component-yarce22.netlify.app/
 
 7. ## Article preview component
 https://article-preview-component-yarce22.netlify.app/
+
+8. ## Base Apparel coming soon page
+https://base-apparel-coming-soon-page-yarce22.netlify.app/
