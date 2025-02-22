@@ -45,21 +45,21 @@ const Input = () => {
         placeholder='Email Address'
         onChange={handleChange}
         value={email}
-        className={`w-full h-12 pl-6 rounded-[28px] ${showMsn || showMsn === undefined ? 'border-desaturated-red border' : 'border-red-400 border-[3px]'} placeholder-desaturated-red-placeholder`}
+        className={`w-full h-12 pl-6 lg:pl-8 lg:h-14 rounded-[28px] ${showMsn || showMsn === undefined ? 'border-desaturated-red border' : 'border-red-400 border-[3px]'} placeholder-desaturated-red-placeholder`}
       />
       {showMsn === false
-        && <img className='absolute right-18 top-3' src={error} alt='error'/>
+        && <img className='absolute right-18 lg:right-28 top-3 lg:top-4' src={error} alt='error'/>
       }
       <button
         onClick={onShowMsn}
         type='submit'
-        className='absolute right-0 w-16 h-12 bg-linear-135 from-[#F8BFBF] to-[#EE8B8B] rounded-3xl shadow-lg cursor-pointer'
+        className='absolute right-0 w-16 lg:w-[100px] h-12 lg:h-14 bg-linear-135 from-[#F8BFBF] to-[#EE8B8B] rounded-3xl lg:rounded-4xl shadow-lg cursor-pointer'
       >
         <img className='my-0 mx-auto' src={rightArrow} alt="Right-Arrow" />
       </button>
       {showMsn === undefined && <p></p>}
-      {showMsn && <p className='pl-6 pt-2 text-[14px]'>Thank you for send your email!</p>}
-      {showMsn === false && <p className='pl-6 pt-2 text-red-500 text-[14px]'>Please provide a valid email</p>}
+      {showMsn && <p className='pl-6 lg:pl-8 pt-2 text-[14px]'>Thank you for send your email!</p>}
+      {showMsn === false && <p className='pl-6 lg:pl-8 pt-2 text-red-500 text-[14px]'>Please provide a valid email</p>}
     </form>
   )
 }
