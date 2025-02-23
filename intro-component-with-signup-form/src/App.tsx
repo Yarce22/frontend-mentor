@@ -1,10 +1,13 @@
+import { Background } from './components/Background/Background'
+import { Body } from './components/Body/Body'
 import './App.css'
 
 function App() {
   return (
-    <>
-      <h1 className='text-red-500'>Hola Fronted Mentor</h1>
-    </>
+    <main className="relative w-screen h-screen px-6 text-white -z-20 font-Poppins bg-Red">
+      <Background />
+      <Body />
+    </main>
   )
 }
 
