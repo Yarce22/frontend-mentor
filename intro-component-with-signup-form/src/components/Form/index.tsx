@@ -64,14 +64,14 @@ const Form = () => {
   };
   return (
     <>
-      <section className='grid place-content-center'>
-        <div className='max-w-[327px] py-4 px-[66px] mb-[24px] text-center bg-Blue rounded-[10px] shadow-boxes'>
-          <p className='italic'>
+      <section className='grid place-content-center lg:w-[540px]'>
+        <div className='my-0 mx-auto w-[327px] lg:w-[540px] py-4 lg:h-[60px] px-[66px] mb-[24px] text-center bg-Blue rounded-[10px] shadow-boxes'>
+          <p className='font-light lg:text-[15px]'>
             <span className='font-bold'>Try it free 7 days</span> then $20/mo. thereafter
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="flex flex-col p-6 bg-white rounded-[10px] gap-4 shadow-boxes">
+        <form onSubmit={handleSubmit} className="flex flex-col p-6 lg:p-10 bg-white rounded-[10px] gap-4 shadow-boxes">
           {inputs.map(({ type, placeholder, value }) => (
             <Input
               key={placeholder}

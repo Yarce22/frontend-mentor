@@ -22,7 +22,7 @@ const Input: React.FC<InputProps> = ({
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className={`w-full border h-14 pl-5 ${error ? 'text-Red border-2 border-Red placeholder-Red' : 'text-Dark-blue border border-[#DEDEDE] placeholder-Dark-blue-placeholder'} rounded-[5px]  font-semibold focus:border-Blue outline-none`}
+        className={`w-full border h-14 pl-5 ${error ? 'text-Red border-2 border-Red placeholder-Red' : 'text-Dark-blue border border-[#DEDEDE] placeholder-Dark-blue-placeholder'} rounded-[5px]  font-semibold focus:border-Blue outline-none text-[14px]`}
       />
       {error && <p className='pt-1.5 italic text-Red font-medium text-[11px] text-end'>{error}</p>}
     </div>
