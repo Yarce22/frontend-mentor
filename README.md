@@ -1,5 +1,5 @@
 1. ## Recipe Page
-https://interactive-rating-component-yarce22.netlify.app/
+https://recipe-page-fm-yarce22.netlify.app
 
 2. ## Social links profile
 https://social-links-profile-yarce22.netlify.app/

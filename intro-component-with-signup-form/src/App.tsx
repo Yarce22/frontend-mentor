@@ -1,14 +1,18 @@
-import { Background } from './components/Background/Background'
-import { Body } from './components/Body/Body'
-import './App.css'
+import './App.css';
+import { Title } from './components/Title';
+import { Form } from './components/Form';
 
 function App() {
   return (
-    <main className="relative w-screen h-screen px-6 text-white -z-20 font-Poppins bg-Red">
-      <Background />
-      <Body />
-    </main>
-  )
+    <>
+      <main className='bg-Red h-[1000px]'>
+        <article className={`flex flex-col justify-between items-center h-full px-6 pt-[88px] pb-[68px] text-white font-Poppins bg-[url(/public/images/bg-intro-mobile.png)]`}>
+          <Title />
+          <Form />
+        </article>
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
