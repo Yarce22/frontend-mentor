@@ -1,0 +1,8 @@
+.socialMedia-container:hover {
+  background-color: hsl(223, 87%, 63%);
+}
+
+.socialMedia-container:hover svg path {
+  fill: white
+}
+

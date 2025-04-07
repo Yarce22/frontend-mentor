@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Main: "Libre Franklin", sans-serif;
+
+  --color-Blue: hsl(223, 87%, 63%);
+  --color-Pale-Blue: hsl(223, 100%, 88%);
+  --color-Light-Red: hsl(354, 100%, 66%);
+  --color-Gray: hsl(0, 0%, 59%);
+  --color-Dark-Blue: hsl(209, 33%, 12%);
+  --color-Media-Border: hsl(223, 87%, 63%, 15%);
+  --color-Button-Hover: hsl(223, 87%, 63%, 80%);
+}
+
+html {
+  box-sizing: border-box;
+}
