@@ -12,7 +12,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <section className="px-12 pt-40 bg-DarkBlue-MainBg">
+    <section className="px-12 pt-40 pb-[338px] bg-DarkBlue-MainBg">
       <div className="w-6 pl-2 h-5m">
         <img src={Comillas} alt="comillas-icons" className="w-full h-full" />
       </div>
