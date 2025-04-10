@@ -1,3 +1,5 @@
+import Logo from "public/images/logo.svg"
+
 const Header: React.FC = () => {
   const navLinks = [
     { name: 'Features', path: '#features' },
@@ -7,7 +9,7 @@ const Header: React.FC = () => {
   return (
     <nav className="fixed top-0 z-50 flex items-center justify-between w-screen h-12 lg:h-auto px-6 pt-6 pb-4 lg:px-20 lg:pt-[74px] font-light font-Raleway bg-DarkBlue-bg">
       <a href="#hero" className="w-20 h-6 lg:w-44 lg:h-[52px]">
-        <img src="../../../public/images/logo.svg" alt="logo" className="w-full h-full" />
+        <img src={Logo} alt="logo" className="w-full h-full" />
       </a>
       <ul className="flex gap-6 text-white text-[0.75rem] lg:text-[1rem]">
         {
