@@ -13,13 +13,13 @@ const Features: React.FC = () => {
   ]
 
   return (
-    <section id="features" className="grid place-items-center columns-1 pt-10 bg-DarkBlue-MainBg">
+    <section id="features" className="grid grid-cols-1 pt-10 lg:pt-0 lg:px-[280px] place-items-center lg:grid-cols-2 bg-DarkBlue-MainBg">
       {FeaturesData.map((feature, index) => (
         <div key={index} className="flex flex-col items-center justify-center w-[87.76%] mb-20">
-          <div className="w-16 h-16 mt-6 mb-8">
-            <img src={feature.logo} alt="feature-logo" className="w-full h-full object-contain" />
+          <div className="w-16 h-16 mt-6 mb-8 lg:w-20 lg:h-20">
+            <img src={feature.logo} alt="feature-logo" className="object-contain w-full h-full" />
           </div>
-          <h2 className="font-Raleway font-bold text-[18px]">{feature.title}</h2>
+          <h2 className="font-Raleway font-bold text-[18px] lg:text-[20px]">{feature.title}</h2>
           <p className="font-OpenSans text-[14px] text-center mx-1">{feature.description}</p>
         </div>
       ))}

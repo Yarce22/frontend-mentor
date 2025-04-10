@@ -16,41 +16,43 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="pt-[253px] px-7 pb-14 bg-DarkBlue-FooterBg">
+    <footer className="lg:w-full pt-[253px] px-7 lg:px-[120px] pb-14 bg-DarkBlue-FooterBg">
       <div className="w-[108px] h-[31px] mb-9 pl-3">
         <img src={Logo} alt="logo" className="w-full h-full" />
       </div>
 
-      <div className="flex flex-col text-white">
-        <div className="flex gap-5">
+      <div className="flex flex-col text-white lg:flex-row">
+        <div className="flex gap-5 lg:w-[379px]">
           <img src={LocationIcon} alt="location-icon" className="w-4 h-4 mt-2" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         </div>
 
-        <div className="flex gap-4 mt-4">
-          <img src={PhoneIcon} alt="phone-icon" className="w-4 h-4 mt-1" />
-          <p>+1-543-123-4567</p>
+        <div className="lg:ml-10">
+          <div className="flex gap-4 mt-4 lg:mt-0">
+            <img src={PhoneIcon} alt="phone-icon" className="w-4 h-4 mt-1" />
+            <p>+1-543-123-4567</p>
+          </div>
+
+          <div className="flex gap-4 mt-4">
+            <img src={EmailIcon} alt="phone-icon" className="w-5 h-4 mt-1" />
+            <p>example@fylo.com</p>
+          </div>
         </div>
 
-        <div className="flex gap-4 mt-4">
-          <img src={EmailIcon} alt="phone-icon" className="w-5 h-4 mt-1" />
-          <p>example@fylo.com</p>
-        </div>
-
-        <ul className="flex flex-col gap-4 mt-12">
+        <ul className="flex flex-col gap-4 mt-12 lg:mt-0 lg:ml-[146px]">
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">About Us</li>
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Jobs</li>
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Press</li>
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Blog</li>
         </ul>
 
-        <ul className="flex flex-col gap-4 mt-12">
+        <ul className="flex flex-col gap-4 mt-12 lg:ml-10 lg:mt-0"> 
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Contact Us</li>
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Terms</li>
           <li className="inline transition-all duration-200 ease-in-out hover:font-bold">Privacy</li>
         </ul>
 
-        <div className="flex items-center justify-center gap-4 mt-12">
+        <div className="flex items-center justify-center gap-4 mt-12 lg:items-start lg:mt-0 lg:ml-[146px]">
           {socialMedia.map(({ name, icon }) => (
               <div key={name} id="socialMedia-container" className="w-8 h-8 p-2 border border-white rounded-full cursor-pointer hover:border-Cyan">
                 {cloneElement(icon, { className: 'w-full h-full' })}

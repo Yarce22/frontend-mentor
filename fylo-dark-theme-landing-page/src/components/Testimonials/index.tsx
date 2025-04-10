@@ -12,18 +12,18 @@ const Testimonials = () => {
   ]
 
   return (
-    <section className="px-12 pt-40 pb-[338px] bg-DarkBlue-MainBg">
-      <div className="w-6 pl-2 h-5m">
+    <section className="lg:relative px-12 lg:px-36 pt-40 pb-[338px] bg-DarkBlue-MainBg">
+      <div className="w-6 h-5 pl-2 lg:absolute lg:z-10 lg:top-32 lg:left-32 lg:w-12 lg:h-10">
         <img src={Comillas} alt="comillas-icons" className="w-full h-full" />
       </div>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 lg:relative lg:z-20 lg:flex-row">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="flex flex-col py-6 px-5 text-white text-[10px] font-OpenSans rounded-lg bg-DarkBlue-TestimonialBg">
+          <div key={index} className="flex flex-col py-6 px-5 text-white text-[10px] lg:text-[14px] font-OpenSans rounded-lg bg-DarkBlue-TestimonialBg">
             <p className="">{testimonial.testimonial}</p>
             <div className="flex items-center gap-2 mt-4">
               <img src={testimonial.photo} alt={`${testimonial.author}'s photo`} className="w-6 h-6 rounded-full" />
               <div>
-                <h3 className="font-bold">{testimonial.author}</h3>
+                <h3 className="font-bold lg:text-[10px]">{testimonial.author}</h3>
                 <p className="text-[7px]">{testimonial.position}, {testimonial.company}</p>
               </div>
             </div>

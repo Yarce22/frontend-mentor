@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <main className='relative text-white bg-DarkBlue-bg'>
+      <main className='relative grid text-white place-items-center bg-DarkBlue-bg'>
         <Header />
         <Hero />
         <Features />
