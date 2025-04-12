@@ -1,0 +1,26 @@
+const Links: React.FC = () => {
+  return (
+    <>
+      <li className="relative inline-block group">
+        <a href="/" className="text-[18px] text-VeryDarkBlue font-bold font-BarlowCondensed cursor-pointer">PRODUCT</a>
+        <span className="absolute left-0 bottom-[-2px] h-[2px] w-full bg-VeryDarkBlue transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+      </li>
+      <li className="relative inline-block group">
+        <a href="/" className="text-[18px] text-VeryDarkBlue font-bold font-BarlowCondensed cursor-pointer">FEATURES</a>
+        <span className="absolute left-0 bottom-[-2px] h-[2px] w-full bg-VeryDarkBlue transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+      </li>
+      <li className="relative inline-block group">
+        <a href="/" className="text-[18px] text-VeryDarkBlue font-bold font-BarlowCondensed cursor-pointer">PRICING</a>
+        <span className="absolute left-0 bottom-[-2px] h-[2px] w-full bg-VeryDarkBlue transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+      </li>
+      
+      <hr className="w-full my-4 border border-LightGrayishBlue" />
+      <li className="relative inline-block group">
+        <a href="/" className="text-[18px] text-GrayishBlue font-bold font-BarlowCondensed cursor-pointer">LOGIN</a>
+        <span className="absolute left-0 bottom-[-2px] h-[2px] w-full bg-GrayishBlue transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+      </li>
+    </>
+  )
+}
+
+export { Links }
