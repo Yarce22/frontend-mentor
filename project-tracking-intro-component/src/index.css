@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-Red: hsl(0, 100%, 68%);
+    --color-DarkRed: hsl(0, 47%, 51%);
+    --color-VeryDarkBlue: hsl(230, 29%, 20%);
+    --color-GrayishBlue: hsl(231, 7%, 65%);
+    --color-LightGrayishBlue: hsl(207, 33%, 95%);
+
+    --font-BarlowCondensed: "Barlow Condensed", sans-serif;
+    --font-Barlow: "Barlow", sans-serif;
+}
