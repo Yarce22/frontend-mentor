@@ -27,7 +27,7 @@ https://base-apparel-coming-soon-page-yarce22.netlify.app/
 9. ## intro-component-with-sign-up-form
 https://intro-component-with-signup-form-yarce22.netlify.app/
 
-20. ## ping coming soon page
+10. ## ping coming soon page
 https://ping-coming-yarce22.netlify.app/
 
 ## Junior Projects
