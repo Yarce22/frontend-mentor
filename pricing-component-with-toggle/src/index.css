@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Montserrat: "Montserrat", sans-serif;
+
+  --color-LightPurple: hsl(236, 72%, 79%);
+  --color-BluePurple: hsl(237, 63%, 64%);
+
+  --color-VeryLightGrayishBlue: hsl(240, 78%, 98%);
+  --color-LightGrayishBlue: hsl(234, 14%, 74%);
+  --color-GrayishBlue: hsl(233, 13%, 49%);
+  --color-DarkGrayishBlue: hsl(232, 13%, 33%);
+}
