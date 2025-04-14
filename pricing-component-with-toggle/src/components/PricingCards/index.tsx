@@ -47,11 +47,11 @@ const PricingCards: React.FC<PricingProps> = ({ isMonthly }) => {
 
 
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0 w-full mt-20 lg:mt-16">
+    <section className="flex flex-col gap-8 justify-center items-center mt-20 w-full lg:flex-row lg:gap-0 lg:mt-16">
       {PRICING_CARDS.map((pricing: PricingCard) => (
         <div
           key={pricing.title}
-          className={`${pricing.isPopular ? 'bg-BluePurple text-white lg:h-[501px]' : 'bg-white text-GrayishBlue lg:h-[453px]'} flex flex-col justify-center w-full px-7 py-8 text-center rounded-[10px] shadow-2xl/10`}
+          className={`${pricing.isPopular ? 'bg-linear-to-br to-BluePurple from-LightPurple text-white lg:h-[501px]' : 'bg-white text-GrayishBlue lg:h-[453px]'} flex flex-col justify-center w-full px-7 py-8 text-center rounded-[10px] shadow-2xl/10`}
         >
           <h2 className='mb-6 lg:mb-0 text-[1.125rem]'>
             {pricing.title}
@@ -59,7 +59,7 @@ const PricingCards: React.FC<PricingProps> = ({ isMonthly }) => {
           <p className={`${pricing.isPopular ? 'text-white' : 'text-DarkGrayishBlue lg:mb-3'} flex items-center justify-evenly mb-8 text-[4.5rem]`}>
             <span className='text-[2.5rem]'>$</span>{isMonthly ? pricing.price.monthly : pricing.price.annually}
           </p>
-          <div className='flex flex-col items-center justify-center gap-3'>
+          <div className='flex flex-col gap-3 justify-center items-center'>
             <hr className='w-full h-[1px] bg-LightGrayishBlue opacity-25' />
             <p className='text-[0.9375rem]'>{pricing.features[0]}</p>
             <hr className='w-full h-[1px] bg-LightGrayishBlue opacity-25' />
