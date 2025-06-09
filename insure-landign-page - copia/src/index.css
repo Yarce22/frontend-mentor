@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-VeryDarkPurple: #2C2830;
+  --color-DarkPurple: #2D2641;
+  --color-DarkGray: #837D88;
+  --color-LightGray: #96A9C6;
+  --color-VeryLightGray: #FAFAFA;
+
+  --font-DM: 'DM Serif Display', serif;
+  --font-Karla: 'Karla', sans-serif;
+}
