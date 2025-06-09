@@ -21,22 +21,22 @@ const Footer: React.FC = () => {
         <img src={patternMobile} alt="pattern" />
       </picture>
 
-      <div className="relative z-20 flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:w-full  ">
+      <div className="flex relative z-20 flex-col justify-center items-center lg:flex-row lg:justify-between lg:w-full">
         <div className="mb-8">
           <Logo />
         </div>
 
-        <div className="flex items-center gap-4">
-          <FbIcon fill="#837D88" className="cursor-pointer hover:fill-DarkPurple transition-colors duration-200 ease-in-out" />
-          <TwitterIcon fill="#837D88" className="cursor-pointer hover:fill-DarkPurple transition-colors duration-200 ease-in-out" />
-          <PinterestIcon fill="#837D88" className="cursor-pointer hover:fill-DarkPurple transition-colors duration-200 ease-in-out" />
-          <IgIcon fill="#837D88" className="cursor-pointer hover:fill-DarkPurple transition-colors duration-200 ease-in-out" />
+        <div className="flex gap-4 items-center">
+          <FbIcon fill="#837D88" className="transition-colors duration-200 ease-in-out cursor-pointer hover:fill-DarkPurple" />
+          <TwitterIcon fill="#837D88" className="transition-colors duration-200 ease-in-out cursor-pointer hover:fill-DarkPurple" />
+          <PinterestIcon fill="#837D88" className="transition-colors duration-200 ease-in-out cursor-pointer hover:fill-DarkPurple" />
+          <IgIcon fill="#837D88" className="transition-colors ease-in-out cursor-pointer hover:fill-DarkPurple duration-201" />
         </div>
       </div>
 
       <hr className="w-full my-10 border-b border-[#DADADA]" />
 
-      <div className="flex flex-col lg:flex-row lg:justify-start lg:w-full gap-10 lg:gap-48">
+      <div className="flex flex-col gap-10 lg:flex-row lg:justify-start lg:w-full lg:gap-48">
         {FooterLinks.map((link) => (
           <div key={link.id} className="flex flex-col gap-4 items-center lg:items-start font-Karla font-bold text-[0.8125rem] text-DarkGray tracking-[1.5px]">
             <h4 className="mb-9 text-DarkGray">{link.title.toUpperCase()}</h4>
