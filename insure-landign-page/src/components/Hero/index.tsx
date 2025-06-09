@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <source media="(min-width: 1024px)" srcSet={patternTopDesktop} />
         <img src={patternTopMobile} alt="patternTopMobile" />
       </picture>
-      <picture className="absolute z-10 -bottom-44 lg:-bottom-0 lg:-top-20 right-0">
+      <picture className="absolute right-0 -bottom-44 z-10 lg:-bottom-0 lg:-top-20">
         <source media="(min-width: 1024px)" srcSet={patternButtonDesktop} />
         <img src={patternButtonMobile} alt="patternButtonMobile" />
       </picture>
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         <img src={heroMobile} alt="hero-img" />
       </picture>
 
-      <article className="relative flex flex-col items-center lg:items-start w-1/2  py-24 px-6 lg:px-0 lg:pr-5 lg:pt-[105px] lg:pb-[125px]">
+      <article className="relative flex flex-col items-center lg:items-start lg:w-1/2  py-24 px-6 lg:px-0 lg:pr-5 lg:pt-[105px] lg:pb-[125px]">
         <hr className="hidden lg:block lg:w-[150px] lg:border-b lg:border-VeryLightGray mb-16" />
         
         <h1 className="font-DM text-5xl lg:text-7xl text-center lg:text-start text-VeryLightGray leading-12 lg:leading-16 tracking-[-0.67px] lg:tracking-[-1px] lg:pr-3">
