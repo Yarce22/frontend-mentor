@@ -11,21 +11,21 @@ import youtubeIcon from "./assets/images/icon-youtube.svg";
 
 
 const ResumeCards = [
-  {topColor: "facebook", iconMedia: facebookIcon, nickname: "@nathanf", numFollows: "1987", numToday: "12", arrow: arrowUp, arrowColor: "lime-green" },
-  {topColor: "twitter", iconMedia: twitterIcon, nickname: "@nathanf", numFollows: "1044", numToday: "99", arrow: arrowUp, arrowColor: "lime-green" },
-  {topColor: "instagram", iconMedia: instagramIcon, nickname: "@realnathanf", numFollows: "11K", numToday: "1099", arrow: arrowUp, arrowColor: "lime-green" },
-  {topColor: "youtube", iconMedia: youtubeIcon, nickname: "@Nathan F.", numFollows: "8239", numToday: "144", arrow: arrowDown, arrowColor: "bright-red" },
+  {topColor: "bg-facebook", iconMedia: facebookIcon, nickname: "@nathanf", numFollows: "1987", numToday: "12", arrow: arrowUp, arrowColor: "text-lime-green" },
+  {topColor: "bg-twitter", iconMedia: twitterIcon, nickname: "@nathanf", numFollows: "1044", numToday: "99", arrow: arrowUp, arrowColor: "text-lime-green" },
+  {topColor: "bg-instagram", iconMedia: instagramIcon, nickname: "@realnathanf", numFollows: "11K", numToday: "1099", arrow: arrowUp, arrowColor: "text-lime-green" },
+  {topColor: "bg-youtube", iconMedia: youtubeIcon, nickname: "@Nathan F.", numFollows: "8239", numToday: "144", arrow: arrowDown, arrowColor: "text-bright-red" },
 ]; 
 
 const OverviewCards = [
-  {title: "Page Views", num: "87", icon: facebookIcon, arrow: arrowUp, arrowColor: "lime-green", percent: "3%" },
-  {title: "Likes", num: "52", icon: facebookIcon, arrow: arrowDown, arrowColor: "bright-red", percent: "2%" },
-  {title: "Likes", num: "5462", icon: instagramIcon, arrow: arrowUp, arrowColor: "lime-green", percent: "2257%" },
-  {title: "Profile Views", num: "52K", icon: instagramIcon, arrow: arrowUp, arrowColor: "lime-green", percent: "1375%" },
-  {title: "Retweets", num: "117", icon: twitterIcon, arrow: arrowUp, arrowColor: "lime-green", percent: "303%" },
-  {title: "Likes", num: "507", icon: twitterIcon, arrow: arrowUp, arrowColor: "lime-green", percent: "553%" },
-  {title: "Likes", num: "107", icon: youtubeIcon, arrow: arrowDown, arrowColor: "bright-red", percent: "19%" },
-  {title: "Total Views", num: "1407", icon: youtubeIcon, arrow: arrowDown, arrowColor: "bright-red", percent: "12%" },
+  {title: "Page Views", num: "87", icon: facebookIcon, arrow: arrowUp, arrowColor: "text-lime-green", percent: "3%" },
+  {title: "Likes", num: "52", icon: facebookIcon, arrow: arrowDown, arrowColor: "text-bright-red", percent: "2%" },
+  {title: "Likes", num: "5462", icon: instagramIcon, arrow: arrowUp, arrowColor: "text-lime-green", percent: "2257%" },
+  {title: "Profile Views", num: "52K", icon: instagramIcon, arrow: arrowUp, arrowColor: "text-lime-green", percent: "1375%" },
+  {title: "Retweets", num: "117", icon: twitterIcon, arrow: arrowUp, arrowColor: "text-lime-green", percent: "303%" },
+  {title: "Likes", num: "507", icon: twitterIcon, arrow: arrowUp, arrowColor: "text-lime-green", percent: "553%" },
+  {title: "Likes", num: "107", icon: youtubeIcon, arrow: arrowDown, arrowColor: "text-bright-red", percent: "19%" },
+  {title: "Total Views", num: "1407", icon: youtubeIcon, arrow: arrowDown, arrowColor: "text-bright-red", percent: "12%" },
 ];
 
 function App() {
