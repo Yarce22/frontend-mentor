@@ -20,7 +20,7 @@ const OverviewCard: React.FC<OverviewCard> = ({ title, num, icon, arrow, arrowCo
         <img src={icon} alt="social-icon" className="w-5 h-5" />
         <div className="flex items-center gap-1">
           <img src={arrow} alt="arrow-icon" />
-          <p className={`font-bold text-[0.75rem] text-${arrowColor}`}>{percent}</p>
+          <p className={`font-bold text-[0.75rem] ${arrowColor}`}>{percent}</p>
         </div>
       </div>
     </div>
