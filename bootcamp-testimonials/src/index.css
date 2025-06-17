@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family: "Inter", sans-serif;
+
+  --color-White: #FFFFFF;
+  --color-Black: #000000;
+  --color-Gray400: #B9B9CE;
+  --color-Gray100: #EBEBEB;
+  --color-Gray50: #F4F4FC;
+  --color-Purple500: #CF6BCB;
+  --color-pink500: #D3629D;
+  --color-Blue: #202047;
+  --color-Gradient1: #9975D0;
+  --color-gradient2: #4A3FDB;
+
+}
