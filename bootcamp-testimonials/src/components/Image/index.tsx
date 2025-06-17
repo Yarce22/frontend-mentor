@@ -19,11 +19,11 @@ const Image: React.FC<ImageProps> = ({ photo, testimonial, setTestimonial }) => 
         <img src={photo} alt="photo-testimonial" />
       </div>
 
-      <div className="absolute bottom-0 md:bottom-5 flex items-center justify-between px-[18px] md:px-6 w-20 h-10 md:w-28 md:h-14 rounded-full bg-White shadow-2xl cursor-pointer">
-        <button onClick={() => setTestimonial(testimonial === 0 ? testimonial : testimonial - 1)}>
+      <div className="absolute bottom-0 md:bottom-5 flex items-center justify-between px-[18px] md:px-6 w-20 h-10 md:w-28 md:h-14 rounded-full bg-White shadow-2xl">
+        <button className="w-full flex items-center justify-start cursor-pointer" onClick={() => setTestimonial(testimonial === 0 ? testimonial : testimonial - 1)}>
           <img src={leftArrow} alt="left-arrow" className="w-2 h-3 md:w-2 md:h-4" />
         </button>
-        <button onClick={() => setTestimonial(testimonial === 1 ? testimonial : testimonial + 1)}>
+        <button className="w-full flex items-center justify-end cursor-pointer" onClick={() => setTestimonial(testimonial === 1 ? testimonial : testimonial + 1)}>
           <img src={rightArrow} alt="right-arrow" className="w-2 h-3 md:w-2 md:h-4" />
         </button>
       </div>
