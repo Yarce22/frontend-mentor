@@ -36,12 +36,12 @@ const creationsPosts = [
 
 const Creations: React.FC = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-24 mx-6">
-      <h2 className="font-Josefin font-light text-[2rem] md:text-5xl text-center leading-[1]">OUR CREATIONS</h2>
+    <section className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-[1fr_10fr] justify-center items-center mt-24 mx-6 lg:mt-46 lg:mx-40">
+      <h2 className="font-Josefin font-light text-[2rem] md:text-5xl text-center lg:text-start leading-[1] lg:col-start-1 lg:row-start-1 lg:self-start">OUR CREATIONS</h2>
 
-      <section className="flex flex-col gap-6 w-full mt-12 md:mt-8">
+      <section className="grid lg:grid-cols-4 gap-6 w-full mt-12 md:mt-8 lg:col-start-1 lg:row-start-2 lg:col-span-2">
         {creationsPosts.map(post => (
-          <div key={post.title} className="relative w-full h-[120px]">
+          <div key={post.title} className="relative w-full h-[120px] lg:h-[450px] lg:w-[256px]">
             <picture className="absolute top-0 left-0 w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-black/50 after:to-black/0">
             <source media="(min-width: 1024px)" srcSet={post.imgDesktop} />
             <source media="(min-width: 768px)" srcSet={post.imgTablet} />
@@ -52,7 +52,7 @@ const Creations: React.FC = () => {
         ))}
       </section>
 
-      <button className="font-Alata font-regular text-[0.875rem] tracking-[5px] py-3 px-10 border-2 border-Black mt-8">SEE ALL</button>
+      <button className="font-Alata justify-self-center font-regular text-[0.875rem] tracking-[5px] py-2 px-9 border-2 border-Black mt-8 lg:col-start-2 lg:row-start-1 lg:col-span-2 max-w-[157px] max-h-10 lg:self-start lg:justify-self-end lg:m-0">SEE ALL</button>
     </section>
   )
 }

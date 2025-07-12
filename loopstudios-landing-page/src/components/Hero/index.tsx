@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         <img src={heroImgMobile} alt="hero-img" className="w-full h-full object-cover" />
       </picture>
 
-      <div className="mx-6 mt-[163px] px-6 py-4.5 md:mx-20 md:mt-32.5 md:p-10 text-White font-Josefin font-light text-[2.5rem] md:text-7xl leading-[1] border-3 border-White">
+      <div className="mx-6 mt-[163px] px-6 py-4.5 md:mx-20 md:mt-32.5 md:p-10 lg:mx-41.5 max-w-[650px] text-White font-Josefin font-light text-[2.5rem] md:text-7xl leading-[1] border-3 border-White">
         <h1>
           IMMERSIVE EXPERIENCES THAT DELIVER
         </h1>
