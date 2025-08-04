@@ -42,7 +42,7 @@ const Creations: React.FC = () => {
       <section className="grid lg:grid-cols-4 gap-6 w-full mt-12 md:mt-8 lg:col-start-1 lg:row-start-2 lg:col-span-2">
         {creationsPosts.map(post => (
           <div key={post.title} className="relative w-full h-[120px] lg:h-[450px] lg:w-[256px]">
-            <picture className="absolute top-0 left-0 w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-black/50 after:to-black/0">
+            <picture className="absolute top-0 left-0 w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r lg:after:bg-gradient-to-t after:from-black/70 after:to-black/0">
             <source media="(min-width: 1024px)" srcSet={post.imgDesktop} />
             <source media="(min-width: 768px)" srcSet={post.imgTablet} />
               <img src={post.img} alt={post.title} className="w-full h-full object-cover" />
