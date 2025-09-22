@@ -41,18 +41,18 @@ const Creations: React.FC = () => {
 
       <section className="grid lg:grid-cols-4 gap-6 w-full mt-12 md:mt-8 lg:col-start-1 lg:row-start-2 lg:col-span-2">
         {creationsPosts.map(post => (
-          <div key={post.title} className="relative w-full h-[120px] lg:h-[450px] lg:w-[256px]">
-            <picture className="absolute top-0 left-0 w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r lg:after:bg-gradient-to-t after:from-black/70 after:to-black/0">
-            <source media="(min-width: 1024px)" srcSet={post.imgDesktop} />
-            <source media="(min-width: 768px)" srcSet={post.imgTablet} />
+          <div key={post.title} className="group relative w-full h-[120px] text-White hover:text-Black lg:h-[450px] lg:w-[256px]">
+            <picture className="absolute top-0 left-0 w-full h-full after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r lg:after:bg-gradient-to-t after:from-black/70 after:to-black/0 group-hover:after:from-White/70 group-hover:after:to-White/70">
+              <source media="(min-width: 1024px)" srcSet={post.imgDesktop} />
+              <source media="(min-width: 768px)" srcSet={post.imgTablet} />
               <img src={post.img} alt={post.title} className="w-full h-full object-cover" />
             </picture>
-            <h3 className={`${post.width} absolute bottom-5 left-5 md:left-9.5 text-White font-Josefin font-light text-2xl leading-[1]`}>{post.title}</h3>
+            <h3 className={`${post.width} absolute bottom-5 left-5 md:left-9.5 font-Josefin font-light text-2xl leading-[1]`}>{post.title}</h3>
           </div>
         ))}
       </section>
 
-      <button className="font-Alata justify-self-center font-regular text-[0.875rem] tracking-[5px] py-2 px-9 border-2 border-Black mt-8 lg:col-start-2 lg:row-start-1 lg:col-span-2 max-w-[157px] max-h-10 lg:self-start lg:justify-self-end lg:m-0">SEE ALL</button>
+      <button className="font-Alata justify-self-center font-regular text-[0.875rem] tracking-[5px] py-2 px-9 border-2 border-Black cursor-pointer mt-8 hover:bg-Black hover:text-White transition-all duration-300 lg:col-start-2 lg:row-start-1 lg:col-span-2 max-w-[157px] max-h-10 lg:self-start lg:justify-self-end lg:m-0">SEE ALL</button>
     </section>
   )
 }
